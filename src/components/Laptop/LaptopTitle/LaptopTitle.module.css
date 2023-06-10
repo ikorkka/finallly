@@ -1,0 +1,116 @@
+.second__item {
+    background: #fff;
+    border: 1px solid #165783;
+    width: 250px;
+    height:355px;
+    display: flex;
+    /* display: grid;
+    grid-template-columns: repeat(3,0fr); */
+    cursor: pointer;
+  }
+  
+  .second__card_container {
+    max-width: 255px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 0px 5px;
+    display: flex;
+  }
+  .info{
+    margin-top: -75px;
+    margin-left: -140px;
+  }
+  .second__card_body {
+    padding: 20px 0px;
+  }
+  
+  .second__card_title {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .second__card_title h1 {
+    background: #d2e5d2;
+    border-radius: 1.56522px;
+    padding: 5px 8px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 94.49%;
+    text-align: center;
+    color: #165783;
+  }
+  
+  .card__icon {
+    display: flex;
+    column-gap: 17px;
+  }
+  
+  .second__card__favorites {
+    width: 19px;
+    height: 18px;
+    cursor: pointer;
+  }
+  
+  .second__card__favorites:active {
+    width: 19px;
+    height: 18px;
+  }
+  
+  .second__card_img {
+    margin-top: 16px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  .second__card_img:hover{
+    transform: scale(1.1);
+    filter: brightness(105%);
+  }
+  
+  .second__card_info {
+    margin-top: 21px;
+  }
+  
+  .second__card_info p {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 138.49%;
+    color: #165783;
+  }
+  
+  .second__card_subtitle {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .second__card_subtitle p {
+    text-decoration: line-through;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .second__card_subtitle h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #165783;
+  }
+  
+  .btn {
+    margin-top: 12px;
+    background: #165783;
+    border: 1px solid #165783;
+    color: rgba(255, 255, 255, 0.91);
+    padding: 5.5px 14px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: none;
+    border: 1px solid #165783;
+    color: #165783;
+  }
+  

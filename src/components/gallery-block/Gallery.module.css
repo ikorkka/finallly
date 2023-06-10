@@ -1,0 +1,97 @@
+.gallery {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  padding-bottom: 80px;
+}
+
+.gallery__container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.gallery__body {
+  display: grid;
+  gap: 10px;
+}
+
+.gallery__up {
+  display: flex;
+  gap: 10px;
+}
+
+.dyson__picture {
+  position: relative;
+  background: url("../../../public/dyson.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 50%;
+  height: 368px;
+  display: inline-block;
+  transition: transform 2s ease;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+.dyson__picture:hover{
+  transform: rotateX(350deg);
+}
+.dyson__picture p {
+  position: absolute;
+  right: 31px;
+  bottom: 22px;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 31px;
+  color: #000000;
+}
+
+.iphone__picture {
+  position: relative;
+  background: url("../../../public/fortin.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 50%;
+  display: inline-block;
+  transition: transform 2s ease;
+  transform-style: preserve-3d;
+  height: 368px;
+  cursor: pointer;
+}
+.iphone__picture:hover{
+  transform: rotateX(350deg);
+
+}
+.iphone__picture p {
+  position: absolute;
+  right: 134px;
+  bottom: 22px;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 31px;
+  color: #000000;
+}
+
+
+.gallery__down {
+  position: relative;
+  background: url("../../../public/galacsi.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 219px;
+  cursor: pointer;
+}
+
+.gallery__down p {
+  position: absolute;
+  right: 134px;
+  bottom: 40px;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 31px;
+  color: #ffffff;
+}

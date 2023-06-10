@@ -1,0 +1,29 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "antd": "^5.5.1",
+    "axios": "^1.4.0",
+    "framer-motion": "^10.12.16",
+    "install": "^0.13.0",
+    "next": "^13.4.4",
+    "npm": "^9.6.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.0.7",
+    "react-spring": "^9.7.1",
+    "react-stripe-js": "^1.1.5",
+    "react-transition-group": "^4.4.5",
+    "sass": "^1.62.1",
+    "stripe": "^12.8.0",
+    "swiper": "^9.2.4"
+  }
+}

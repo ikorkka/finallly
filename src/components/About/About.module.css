@@ -1,0 +1,49 @@
+.title{
+    max-width: 1200px;
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 50px;
+}
+.title_title>h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 94.49%;
+    /* identical to box height, or 35px */
+    
+    
+    /* text */
+    
+    color: #165783;
+}
+.title_title>p{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 130%;
+/* or 21px */
+
+
+/* text */
+
+color: #165783;
+}
+.title_photo>img{
+    width: 500px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.title_desk{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+
+}
+.title_desk>img{
+    cursor: pointer;
+}

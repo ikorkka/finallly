@@ -1,0 +1,348 @@
+.aboveHeader {
+  width: 100%;
+  height: 36px;
+  background: #165783;
+  margin: 0 auto;
+}
+
+.aboveHeader__container {
+  max-width: 1200px;
+  padding-top: -50px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+.highlightedText mark {
+  background-color: yellow;
+}
+
+.iphone{
+  white-space: nowrap;
+}
+.aboveHeader_body {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+.aboveHeader__location {
+  display: flex;
+  column-gap: 8px;
+}
+
+.aboveHeader__location img {
+  margin: 2px 0px 0px 0px;
+}
+
+.aboveHeader__location p {
+  font-size: 12px;
+  color: white;
+  cursor: pointer;
+}
+
+.aboveHeader__location p:hover {
+  text-decoration: underline;
+}
+
+.aboveHeader_title {
+  display: flex;
+  justify-content: space-around;
+}
+
+.aboveHeader_title ul {
+  display: flex;
+  gap: 26px;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.aboveHeader_title ul li a:hover {
+  text-decoration: underline;
+}
+
+.aboveHeader_description {
+  color: white;
+  text-decoration: none;
+}
+
+/* Header ====================================== */
+
+.header {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+}
+
+.header__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.header__body {
+  min-height: 100px;
+  padding: 14px 0px 14px 0px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  column-gap: 40px;
+}
+
+.header_all {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_input input {
+  padding: 9px 280px 10px 20px;
+  border-radius: 7px 0px 0px 7px;
+  font-weight: 1000;
+  font-size: 15px;
+  line-height: 18px;
+  width: 550px;
+  border: 1px solid #dddddd;
+  color: rgba(0, 0, 0, 0.6);
+  background: #f5f5f5;
+}
+
+.header_input input:focus {
+  border: 0.5px solid #165783  ;
+}
+
+.header_input button {
+  background: #165783;
+  border: 1px solid #165783;
+  color: rgba(255, 255, 255, 0.91);
+  padding: 8.5px 16px 10px 35px;
+  border-radius: 0px 7px 7px 0px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.header_input button:hover {
+  background: none;
+  border: 1px solid #165783;
+  color: #000000;
+}
+
+.social img {
+  width: 30px;
+  height: 30px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.social img:hover {
+  filter: brightness(90%);
+}
+.social {
+  display: flex;
+  gap: 10px;
+}
+
+.header_connection {
+  display: flex;
+  column-gap: 7px;
+  margin-top: 10px;
+}
+
+.header_connection h4 {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  transition: 0.3s ease;
+}
+
+.header_connection img {
+  width: 20px;
+  height: 20px;
+  transition: 0.3s ease;
+}
+
+.header_connection:hover h4 {
+  color: gray;
+}
+
+.header__phoneLogo {
+  transition: all 0.3s ease;
+}
+
+.header_connection:hover .header__phoneLogo path {
+  fill: gray;
+}
+
+.header_active {
+  display: flex;
+  column-gap: 30px;
+}
+
+.header_down {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 40px;
+  margin-top: 20px;
+}
+.appletv {
+  background: #f5f6f7;
+  border-radius: 63px;
+  border: solid 1px #f5f5f5;
+  cursor: pointer;
+  padding: 15px 35px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #165783;
+  transition: 0.6s ease;
+}
+.appletv:hover {
+  background: none;
+  border-radius: 10px;
+  background: #165783;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.watch {
+  width: 150px;
+  height: 50px;
+  background: #f5f6f7;
+  border-radius: 63px;
+  border: solid 1px #f5f5f5;
+  cursor: pointer;
+  padding: 15px 35px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #165783;
+  transition: 0.6s ease;
+}
+.watch:hover {
+  background: none;
+  border-radius: 10px;
+  background: #165783;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.macbook {
+  width: 150px;
+  height: 50px;
+  background: #f5f6f7;
+  border-radius: 63px;
+  border: solid 1px #f5f5f5;
+  cursor: pointer;
+  padding: 15px 40px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #165783;
+  transition: 0.6s ease;
+}
+
+.macbook:hover {
+  background: none;
+  border-radius: 10px;
+  background: #165783;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.ipad {
+  width: 150px;
+  height: 50px;
+  background: #f5f6f7;
+  border-radius: 63px;
+  border: solid 1px #f5f5f5;
+  cursor: pointer;
+  padding: 15px 47px;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 20px;
+  color: #165783;
+  transition: 0.6s ease;
+}
+.ipad:hover {
+  background: none;
+  border-radius: 10px;
+  background: #165783;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.header_down button:not(:first-child) {
+  background: #f5f6f7;
+  border-radius: 63px;
+  border: solid 1px #f5f5f5;
+  cursor: pointer;
+  padding: 7px 15px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #165783;
+  transition: 0.6s ease;
+}
+
+.header_down button:hover:not(:first-child) {
+  background: #165783;
+  border-radius: 5px;
+  color: white;
+}
+
+.catalog {
+  background: #f5f6f7;
+  border-radius: 63px;
+  border: solid 1px #f5f5f5;
+  cursor: pointer;
+  padding: 15px 35px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #165783;
+  transition: 0.6s ease;
+}
+.iphone {
+  background: #f5f6f7;
+  border-radius: 63px;
+  border: solid 1px #f5f5f5;
+  cursor: pointer;
+  padding: 15px 35px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #165783;
+  transition: 0.6s ease;
+}
+
+.catalog:hover {
+  background: none;
+  border-radius: 10px;
+  background: #165783;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.iphone:hover {
+  background: none;
+  border-radius: 10px;
+  background: #165783;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.catalog span {
+  display: grid;
+  row-gap: 3.5px;
+}
+
+.catalog span div {
+  width: 12px;
+  height: 1.33px;
+  background: #ffffff;
+  border-radius: 28px;
+  transition: 0.3s all ease;
+}
+
+.catalog:hover span div {
+  background: #165783;
+}

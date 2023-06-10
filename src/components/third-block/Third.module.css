@@ -1,0 +1,35 @@
+.third {
+  width: 100%;
+  height: 623px;
+  background: url('../../../public/mack.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.third__container {
+  position: relative;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.third__title {
+  position: absolute;
+  right: 180px;
+  bottom: 40px;
+}
+
+.third__title {
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 31px;
+  color: #ffffff;
+}
+
+.third:hover .third__title p {
+  text-decoration: underline;
+}

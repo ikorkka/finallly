@@ -1,0 +1,40 @@
+.container{
+    max-width: 1200px;
+    width: 100%;
+}
+.title{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 90%;
+    margin: 0 auto;
+}
+.first h1{
+    color: #165783;
+    transition: transform 0.3s ease;
+}
+.first h1:hover{
+    transform: translateX(20px);
+}
+.second h1{
+    color: #165783;
+    transition: transform 0.3s ease;
+}
+.second h1:hover{
+    transform: translateX(20px);
+}
+.three h1{
+    color: #165783;
+    transition: transform 0.3s ease;
+}
+.three h1:hover{
+    transform: translateX(20px);
+}
+.four h1{
+    color: #165783;
+    transition: transform 0.3s ease;
+}
+.four h1:hover{
+    transform: translateX(20px);
+}

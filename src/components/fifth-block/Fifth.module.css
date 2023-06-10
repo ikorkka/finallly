@@ -1,0 +1,151 @@
+.fifth {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #FFFFFF;
+  padding-top: 50px;
+}
+
+.fifth a {
+  width: 100%;
+  height: 100%;
+  color: white;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fifth a:hover{
+  color: #165783;
+}
+
+.error {
+  color: white;
+}
+
+.fifth__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.fifth__body {
+  min-height: 475px;
+}
+
+.fifth__form {
+  background: linear-gradient(87.07deg, #5F6308 1.77%, #302F02 99.88%);
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  padding: 90px 52px 85px 52px;
+  display: flex;
+  justify-content: center;
+  column-gap: 32px;
+}
+
+.form__title {
+  display: grid;
+  row-gap: 30px;
+}
+
+.form__title_main h1 {
+  font-weight: 500;
+  font-size: 37px;
+  line-height: 119.49%;
+  color: #FFFFFF;
+  cursor: pointer;;
+}
+
+.form__subtitle {
+  display: grid;
+  row-gap: 9px;
+}
+.form__subtitle p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
+
+.form__info {
+  display: grid;
+  align-items: end;
+}
+
+.form__filling {
+  display: flex;
+  column-gap: 20px;
+}
+
+.form__filling input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 119.99%;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 15px 65px 15px 17px;
+  border-radius: 7px;
+  outline: none;
+  border: 1px solid #fff;
+}
+
+.form__info h2 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 119.99%;
+  color: #FFFFFF;
+}
+
+.form__social_choice {
+  display:flex;
+  column-gap: 27px;
+}
+
+.form__social_choice div {
+  display:flex;
+  column-gap: 10px;
+}
+
+.form__social_choice label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 119.99%;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.form__info button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  background: #3E4D31;
+  border-radius: 6px;
+  border: 1px solid #3E4D31;
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+  transition: .3s all ease;
+}
+
+.form__info button:hover {
+  background: #ffffff;
+  border: 1px solid #3e4d31;
+  color: #165783;
+}
+
+.form__checkbox {
+  display: flex;
+  column-gap: 10px;
+}
+.form__checkbox input{
+  cursor: pointer;
+}
+.form__checkbox label {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 119.99%;
+  color: #FFFFFF;
+  cursor:auto;
+}

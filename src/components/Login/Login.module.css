@@ -1,0 +1,91 @@
+.login_boss {
+  max-width: 1200px;
+  width: 100%;
+}
+.login {
+  width: 40%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 200px;
+}
+.login_title h1 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 94.49%;
+  color: #165783;
+}
+.login_form {
+  margin-top: 20px;
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.login_form_name {
+  width: 380px;
+  height: 49px;
+  border: solid 2px #165783;
+  transition: 0.5s ease;
+  font-size: 20px   ;
+}
+.login_form_pasword {
+  width: 380px;
+  height: 49px;
+  border: solid 2px #165783;
+  transition: 0.5s ease;
+  font-size: 20px;
+}
+.login_btn button {
+  width: 180px;
+  height: 49px;
+  border-radius: 5px;
+  background-color: #165783;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  line-height: 22px;
+  color: #ffffff;
+  transition: 0.3s ease;
+}
+.login_btn button:hover {
+  color: #165783; 
+  border: solid 2px #165783;
+  background-color: white;
+  border-radius: 15px;
+}
+.btn{
+    display: flex;
+    gap: 20px;
+}
+.login_btn_admin{
+    width: 180px;
+    height: 49px;
+    border-radius: 5px;
+    background-color: #165783;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    line-height: 22px;
+    color: #ffffff;    
+    padding-top: 12px;
+    transition: 0.3s ease;
+}
+.login_btn_admin:hover{
+    color: #165783; 
+    border: solid 2px #165783;
+    background-color: white;
+    border-radius: 15px;    
+}
+.login_btn_admin_bos{
+    margin-top: 30px;
+}

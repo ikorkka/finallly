@@ -1,0 +1,363 @@
+.purchaseFirst {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 20px 0px 122px 0px;
+}
+
+.purchaseFirst__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.purchaseFirst__body {
+  display: grid;
+  row-gap: 20px;
+}
+.first_otziv {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+}
+.second_otziv {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+.all_otziv{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;  
+}
+.thre_otziv{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 20px
+  ;
+}
+.purchaseFirst__link a {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 94.49%;
+  color: #aaaaaa;
+}
+
+.purchaseFirst__link a:hover {
+  text-decoration: underline;
+}
+.info_second_content_btn_3 {
+  background: #fcfcfc;
+  border: 1.5px solid #9a9a9a;
+  border-radius: 7px;
+  padding: 5px 8px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 136.99%;
+  color: #9a9a9a;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.info_second_content_btn_3:focus {
+  border: 1.5px solid #3e4d31;
+  color: #165783;
+}
+.purchaseFirst__link span {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 94.49%;
+  color: #165783;
+  cursor: pointer;
+}
+
+.purchaseFirst__link span:hover {
+  text-decoration: underline;
+}
+
+.purchaseFirst__title h1 {
+  font-weight: 500;
+  font-size: 37px;
+  line-height: 94.49%;
+  color: #165783;
+  margin: 0px 0px 40px 0px;
+}
+
+.purchaseFirst__content {
+  display: flex;
+  column-gap: 131px;
+}
+
+.purchaseFirst__swiper {
+  background: #ffffff;
+  text-align: center;
+  width: 445px;
+  height: 378px;
+}
+
+.purchaseFirst__swiper_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 5px;
+}
+
+.purchaseFirst__swipe_title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__icon {
+  display: flex;
+  column-gap: 17px;
+}
+
+.purchaseFirst__swipe_title h1 {
+  background: #d2e5d2;
+  border-radius: 1.56522px;
+  padding: 5px 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 94.49%;
+  text-align: center;
+  color: #165783;
+}
+
+/* PurchaseFirst Characteristic ================================== */
+
+.purchaseFirst__characteristic {
+  display: grid;
+  row-gap: 25px;
+}
+
+.purchaseFirst__characteristic_title {
+  display: grid;
+  row-gap: 20px;
+}
+
+.purchaseFirst__title_info {
+  display: flex;
+  column-gap: 23px;
+}
+
+.purchaseFirst__characteristic_title div h1 {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 94.49%;
+  color: #165783;
+}
+
+.purchaseFirst__characteristic_title div h2 {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 94.49%;
+  color: #b3b3b3;
+  text-decoration: line-through 1.5px;
+}
+
+.purchaseFirst__subtitle_info {
+  display: flex;
+  column-gap: 17px;
+}
+
+.purchaseFirst__subtitle_info a {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 94.49%;
+  text-decoration: underline;
+  color: #165783;
+}
+
+.purchaseFirst__characteristic_info {
+  display: grid;
+  row-gap: 25px;
+}
+
+.characteristic_info_first_title h1 {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 175.49%;
+  color: #165783;
+}
+
+.characteristic_info_first_btn {
+  display: flex;
+  column-gap: 8px;
+}
+
+.characteristic_info_first_btn button {
+  background: #fcfcfc;
+  border: 1.5px solid #9a9a9a;
+  border-radius: 7px;
+  padding: 5px 8px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 136.99%;
+  color: #9a9a9a;
+  cursor: pointer;
+}
+
+.characteristic_info_first_btn button:focus {
+  border: 1.5px solid #165783;
+  color: #165783;
+}
+
+.characteristic_info_second {
+  display: flex;
+  column-gap: 116px;
+}
+
+.info_second_title a {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 94.49%;
+  color: #165783;
+  margin: 0px 0px 20px 0px;
+  text-decoration: underline;
+}
+
+.info_second_content {
+  margin: 0px 0px 25px 0px;
+}
+
+.info_second_content h1 {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 175.49%;
+  color: #165783;
+}
+
+.info_second_content p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 175.49%;
+  margin: 0px 0px 10px 0px;
+  color: #959595;
+}
+
+.info_second_content_btn {
+  display: flex;
+  column-gap: 10px;
+}
+
+.info_second_content_btn button {
+  background: #000000;
+  border: 1px solid #000000;
+  padding: 9px 9px 7px 9px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.info_second_content_btn button:nth-child(2) {
+  background: #ffd700;
+  border: 1px solid #ffd700;
+  padding: 9px 9px 7px 9px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.info_second_content_btn button:nth-child(3) {
+  background: #c0c0c0;
+  border: 1px solid #c0c0c0;
+  padding: 9px 9px 7px 9px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.info_second_content_btn button img {
+  opacity: 0;
+}
+
+.info_second_content_btn button:focus img {
+  opacity: 1;
+}
+
+.info_second_content_btn_2 {
+  padding: 4px 7px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 136.99%;
+  color: #165783;
+  border-radius: 7px;
+  background: #fcfcfc;
+  border: 1px solid #165783;
+}
+
+.characteristic_info_second_2 {
+  display: grid;
+}
+
+.characteristic_info_second_2 div h1 {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 175.49%;
+  color: #165783;
+}
+
+.info_second_2 div {
+  display: flex;
+  column-gap: 10px;
+}
+
+.info_second_2 button {
+  background: #fcfcfc;
+  border: 1px solid #9a9a9a;
+  border-radius: 7px;
+  padding: 5px 8px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 136.99%;
+  color: #9a9a9a;
+}
+
+.info_second_2 button:focus {
+  color: #165783;
+  border: 1px solid #165783;
+}
+
+.info_second_2_down button {
+  background: #fcfcfc;
+  border: 1px solid #165783;
+  border-radius: 7px;
+  padding: 5px 8px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 136.99%;
+  color: #165783;
+}
+
+.purchaseFirst__bottom_info button {
+  padding: 16px 91px;
+  background: #165783;
+  border: 1px solid #3e4d31;
+  border-radius: 7px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 136.99%;
+  color: rgba(255, 255, 255, 0.91);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.purchaseFirst__bottom_info button:hover {
+  background: none;
+  border: 1px solid #3e4d31;
+  color: #165783;
+}
+
+.purchaseFirst__bottom_info div {
+  margin: 18px 0px 0px 0px;
+  display: grid;
+  row-gap: 13px;
+}
+
+.purchaseFirst__bottom_info div p {
+  display: flex;
+  align-items: center;
+  column-gap: 11px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 130%;
+  color: #000000;
+}

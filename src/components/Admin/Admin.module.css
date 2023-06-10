@@ -1,0 +1,20 @@
+.container {
+  max-width: 1200px;
+  width: 100%;
+}
+.title {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(4, 2fr);
+  gap: 20px;
+  padding-top: 50px;
+}
+.first_back {
+  padding-top: 20px;
+  width: 260px;
+  border-radius: 20px;
+  height: 150px;
+  background: #165783;
+}

@@ -1,0 +1,49 @@
+.home{
+    max-width: 1200px;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.delivery>h1{
+    font-size: 40px;
+    color: black;
+}
+.delivery_title{
+    margin-top: 50px;
+}
+.delivery_title>h1{
+    font-size: 30px;
+    color: black;
+}
+.delivery_title_desc{
+    margin-top: 20px;
+    display: flex;
+    gap: 15 px;
+    font-size: 17px;
+    color: rgb(3, 155, 3);
+}
+.conditions{
+    margin-top: 50px;
+}
+.conditions>h1{
+    font-size: 30px;
+}
+.conditions>p{
+    margin-top: 20px;
+    font-size: 16px;
+}
+.btn_bank{
+
+    background: #3e4d31;
+    border: 1px solid #3e4d31;
+    color: rgba(255, 255, 255, 0.91);
+    padding: 5.5px 14px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.btn_bank:hover{
+    background: none;
+    border: 1px solid #165783;
+    color: #165783;
+}

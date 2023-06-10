@@ -1,0 +1,101 @@
+.container{
+    max-width: 1200px;
+    width: 85%;
+    margin: 0 auto;
+}
+.bank{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.master_card>img{
+    width: 140px;
+}
+.master_card{
+    display: flex;
+    gap: 15px;
+}
+.master_card>p{
+    margin-top: 45px;
+    transition: 0.3s ease;
+}
+.master_card>p:hover{
+    transform: scale(1.2);
+
+}
+.tinkoff_card{
+    display: flex;
+    gap: 10px;
+}
+.tinkoff_card>img{
+    width: 150px;
+}
+.tinkoff_card>p{
+    margin-top: 40px;
+    transition: 0.3s ease;
+}
+.tinkoff_card>p:hover{
+    transform: scale(1.1);}
+.alfa_card{
+    display: flex;
+}
+.alfa_card>img{
+    width: 170px;
+    margin-top: 0px;
+}
+.alfa_card>p{
+    margin-top: 40px;
+    transition: 0.3s 
+}
+.alfa_card>p:hover{
+    transform: scale(1.1);
+
+}
+.sber_card{
+    display: flex;
+    gap: 20px;
+    margin-top: 150px;
+}
+.sber_card>img{
+    width: 140px;
+}
+.sber_card>p{
+    margin-top: 60px;
+    transition: 0.3s 
+}
+.sber_card>p:hover{
+    transform: scale(1.1);
+}
+.btb_card{
+    display: flex;
+    gap: 40px;
+    margin-top: 150px;
+}
+.btb_card>img{
+    width: 120px;
+    height: 120px;
+}
+.btb_card>p{
+    margin-top: 50px;
+    transition: 0.3s 
+}
+.btb_card>p:hover{
+    transform: scale(1.2);
+
+}
+.gaz_prom{
+    display: flex;
+    margin-top: 150px;
+    gap: 40px;
+}
+.gaz_prom>img{
+    width: 130px;
+    height: 130px;
+}
+.gaz_prom>p{
+    margin-top: 50px;
+    transition: 0.3s 
+}
+.gaz_prom>p:hover{
+    transform: scale(1.2);
+
+}

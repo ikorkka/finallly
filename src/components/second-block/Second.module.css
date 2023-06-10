@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+/* Остальные стили */
+
+.card-enter {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.card-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.card-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card-exit-active {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 300ms, transform 300ms;
+}
+
+
+.second {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  margin-top: 100px;
+}
+
+.second__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.second__body {
+  min-height: 850px;
+  padding: 5px 0px;
+}
+
+.second__title h1 {
+  font-weight: 500;
+  font-size: 37px;
+  line-height: 94.49%;
+  color: #165783;
+}
+
+.second__link {
+  margin: 40px 0px;
+  display: flex;
+  gap: 20px;
+}
+.second__link button {
+  white-space: nowrap;
+  border: none;
+  display: inline-block;
+  transition: transform 0.7s ease;
+  transform-style: preserve-3d;
+  background-color: transparent;
+}
+.second__link button {
+  color: #165783;
+}
+
+.second__link ul {
+  display: flex;
+  column-gap: 36px;
+}
+
+.second__link a {
+  perspective: 1000px;
+}
+.second__link a > span {
+  display: inline-block;
+  transition: transform 0.7s ease;
+  transform-style: preserve-3d;
+}
+.second__link a:hover span {
+  transform: rotateX(350deg);
+}
+.second__card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.watch_all {
+  padding-left: 800px;
+}
+.all span {
+  white-space: nowrap;
+  display: inline-block;
+  transition: transform 0.7s ease;
+  transform-style: preserve-3d;
+}
+.all:hover span {
+  transform: rotateX(350deg);
+}

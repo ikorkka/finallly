@@ -1,0 +1,106 @@
+.catalog {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 90px;
+}
+
+.catalog__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.catalog__body {
+  padding: 5px 0px;
+  display:grid;
+  row-gap: 20px;
+}
+.catalog_tabl{
+  display: grid;
+  grid-template-columns: repeat(3,2fr);
+}
+.catalog__link a {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 94.49%;
+  color: #aaaaaa;
+}
+
+.catalog__link a:hover {
+  text-decoration: underline;
+}
+
+.catalog__link span {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 94.49%;
+  color: #165783;
+  cursor: pointer;
+}
+
+.catalog__link span:hover {
+  text-decoration: underline;
+}
+
+.catalog__title h1 {
+  font-weight: 500;
+  font-size: 37px;
+  line-height: 94.49%;
+  color: #165783;
+}
+
+.catalog__card_items {
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+.catalog__card {
+  position: relative;
+  width: 370px;
+  height: 160px;
+  background: #fff;
+  border: 1px solid #EBF1EB;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+}
+
+.catalog__card:hover {
+  transform: scale(1.05);
+  border: 1px solid #165783;
+}
+
+.card__cirsle {
+    position:absolute;
+    background: #E6EBE6;
+    border-radius:50%;
+    width:9px;
+    height:9px;
+    left:20px;
+    top:20px;
+    transition: .2s all ease;
+  }
+  
+  .catalog__card:hover .card__cirsle {
+    background: #165783;
+  }
+  
+  .catalog__card p {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 94.49%;
+    color: #165783;
+  }
+  
+  .catalog__card div img {
+    position: absolute;
+    right: 25px;
+    bottom: 0px;
+  }
+  

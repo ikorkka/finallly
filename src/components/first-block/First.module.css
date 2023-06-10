@@ -1,0 +1,365 @@
+.first {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+}
+
+.first__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+.info {
+  position: absolute;
+  z-index: 100;
+}
+.first__body {
+  min-height: 760px;
+  padding: 5px 0px;
+}
+
+.banner__block {
+  display: flex;
+  column-gap: 30px;
+}
+
+.swiperFirst {
+  width: 65%;
+  height: 100%;
+}
+
+.banner__slide {
+  position: relative;
+  background-size: 90%;
+  background-image: url(../../../public/soks.jpg);
+  background-position: center center;
+  border-radius: 7px;
+  /* width: 770px; */
+  height: 378px;
+}
+.banner__slide_two {
+  position: relative;
+  background: url(../../../public/li-ning.jpg);
+  background-position: center center;
+  border-radius: 7px;
+  background-size: 770px;
+  /* width: 770px; */
+  height: 378px;
+}
+.banner__slide_content {
+  position: absolute;
+  right: 71px;
+  bottom: 80px;
+  text-align: center;
+}
+
+.banner__slide_content h1 {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 90.49%;
+}
+
+.banner__slide_content p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 136.99%;
+  margin-top: 23px;
+}
+
+.banner__slide_content button {
+  background: #165783;
+  color: #ffffff;
+  padding: 11px 26px;
+  border-radius: 7px;
+  margin-top: 19px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.banner__slide_content button:hover {
+  background: #ffffff;
+  color: rgba(0, 0, 0, 0.91);
+}
+.banner__slide_content_two {
+  position: absolute;
+  right: 71px;
+  bottom: 80px;
+  text-align: center;
+}
+.banner__slide_content_two p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 136.99%;
+  margin-top: 23px;
+  color: white;
+}
+.watch_btn {
+  background: #34bdd2;
+  color: #ffffff;
+  padding: 11px 26px;
+  border-radius: 7px;
+  margin-top: 19px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.catalog__card > p {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+.catalog__card:hover > p {
+  transform: scale(1.3);
+}
+.watch_btn:hover {
+  background: #ffffff;
+  color: rgba(0, 0, 0, 0.91);
+}
+.banner__slide_thre {
+  background: url(../../../public/nike.jpg);
+  position: relative;
+  background-position: center center;
+  border-radius: 7px;
+  background-size: 755px;
+  /* width: 770px; */
+  height: 378px;
+}
+.banner__slide_content_tre {
+  position: absolute;
+  right: 71px;
+  bottom: 80px;
+  text-align: center;
+}
+.banner__slide_content_tre p{
+  color:white;
+}
+.xiaomi_btn {
+  background: yellow;
+  color: #ffffff;
+  padding: 11px 26px;
+  border-radius: 7px;
+  margin-top: 19px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5 s ease;
+}
+.xiaomi_btn:hover {
+  background: #ffffff;
+  color: rgba(0, 0, 0, 0.91);
+}
+.cardSwiper {
+  height: 200px;
+}
+.banner__product {
+  position: relative;
+  border-radius: 7px;
+  border: 1px solid #165783;
+  width: 370px;
+  height: 378px;
+}
+
+.banner__product_container {
+  max-width: 315px;
+  margin: 0 auto;
+  padding: 0px 5px;
+}
+
+.banner__product_body {
+  padding: 20px 0px;
+}
+
+.banner__product_title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner__product_title h1 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 94.49%;
+  color: #165783;
+}
+.banner__slide_content > p {
+  color: white;
+}
+.card__icon {
+  display: flex;
+  column-gap: 16px;
+}
+
+.product__favorites {
+  width: 19px;
+  height: 18px;
+}
+
+.product__favorites:active {
+  background: url(../../../public/Image/FirstBlock/like-active.png);
+}
+
+.banner__product_slide {
+  margin-top: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+.card_img {
+  transition: transform 0.5s ease-in-out;
+}
+.card_img:hover {
+  filter: brightness(105%);
+}
+.banner__product_slide:hover {
+  transform: scale(1.1);
+}
+.cotalog{
+  padding-top: 20px;
+  color: #165783;
+
+}
+
+.banner__product_info p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 133.19%;
+  color: #165783;
+}
+.banner__product_info img {
+  margin-top: 13px;
+}
+.product_info_subtitle {
+  display: flex;
+  justify-content: space-between;
+}
+.product_info_subtitle p {
+  text-decoration: line-through;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.3);
+}
+.product_info_subtitle h2 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 34px;
+  color: #165783;
+}
+.product_info_subtitle button {
+  background: #165783;
+  border: 1px solid #165783;
+  color: rgba(255, 255, 255, 0.91);
+  padding: 11px 26px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.product_info_subtitle button:hover {
+  background: none;
+  border: 1px solid #165783;
+  color: #165783;
+}
+/* catalog ======================= */
+@media (max-width: 850px) {
+  .banner__block {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .banner__product {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .banner__slide_content {
+    right: 30px;
+  }
+}
+
+/* Сatalog ======================= */
+
+.catalog__block {
+  margin-top: 30px;
+}
+
+.catalog__card_items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.catalog__card {
+  position: relative;
+  width: 370px;
+  height: 160px;
+  background: #e6ebe6;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  border: 1px solid #165783;
+}
+
+.catalog__card:hover {
+  transform: scale(1.05);
+  border: 1px solid #165783;
+}
+
+.catalog__card:nth-child(2) {
+  background: #d2e6d2;
+  border: 1px solid #165783;
+}
+
+.catalog__card:nth-child(3) {
+  background-image: url(../../../public/lv.jpg);
+  position: relative;
+  background-position: center center;
+  background-size: 80%;
+  border: 1px solid #666c07;
+}
+
+.catalog__card:nth-child(4) {
+  background: #ffffff;
+  border: 1px solid #165783;
+}
+
+.catalog__card:nth-child(5) {
+  background: rgba(238, 224, 224, 0.95);
+  border: 1px solid #165783;
+
+}
+
+.catalog__card:nth-child(6) {
+  background: #d2dde5;
+  border: 1px solid #165783;
+}
+
+.card__cirsle {
+  position: absolute;
+  background: #ffffff;
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  left: 20px;
+  top: 20px;
+}
+
+.catalog__card p {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 94.49%;
+  color: #165783;
+}
+
+.catalog__card div img {
+  position: absolute;
+  right: 25px;
+  bottom: 0px;
+}
+@media (max-width: 1200px) {
+  .catalog__card_items {
+    justify-content: center;
+  }
+}

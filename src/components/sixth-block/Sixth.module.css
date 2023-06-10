@@ -1,0 +1,34 @@
+.fifth {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    padding-bottom: 80px;
+  }
+  
+  .fifth__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px;
+  }
+  
+  .fifth__body {
+    min-height: 340px;
+    padding: 5px 0px;
+  }
+  
+  .fifth__title h1 {
+      font-weight: 500;
+      font-size: 37px;
+      line-height: 94.49%;
+      color: #165783;
+      text-align: center;
+  }
+  
+  .fifth__card {
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      column-gap: 15px;
+  }

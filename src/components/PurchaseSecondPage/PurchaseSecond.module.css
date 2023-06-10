@@ -1,0 +1,132 @@
+.purchaseSecond {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px 140px 0px;
+}
+
+.purchaseSecond__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 5px;
+}
+
+.purchaseSecond__body {
+    min-height: 357px;
+    padding: 5px 0px;
+    display: grid;
+    row-gap: 43px;
+}
+
+.purchaseSecond__link {
+    display:flex;
+    align-items: start;
+    column-gap: 78px;
+}
+
+.purchaseSecond__link_one {
+    margin: 0px 30px 0px 0px;
+}
+
+.purchaseSecond__link a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 94.49%;    
+    text-align: center;
+    color: #165783;
+}
+
+.purchaseSecond__link a:hover {
+    text-decoration: underline;
+}
+
+.purchaseSecond__info {
+    display: flex;
+    column-gap: 66px;
+}
+
+.purchaseSecond__info_first_title {
+    display: grid;
+    row-gap: 6px;
+}
+
+.purchaseSecond__info_first_title div {
+    display: flex;
+    align-items:last baseline;
+    column-gap: 10px;
+    row-gap: 6px;
+}
+
+.purchaseSecond__info_first_title p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 175.49%;
+    color: #000000;
+}
+
+.info_first_title_1 div {
+    width: 315px;
+    height: 0px;
+    border: 1px dashed #B3B3B3;
+}
+
+.info_first_title_2 div {
+    width: 256px;
+    height: 0px;
+    border: 1px dashed #B3B3B3;
+}
+
+.info_first_title_3 div {
+    width: 278px;
+    height: 0px;
+    border: 1px dashed #B3B3B3;
+}
+
+.info_first_title_4 div {
+    width: 246px;
+    height: 0px;
+    border: 1px dashed #B3B3B3;
+}
+
+.info_first_title_5 div {
+    width: 297px;
+    height: 0px;
+    border: 1px dashed #B3B3B3;
+}
+
+.info_first_title_6 div {
+    width: 258px;
+    height: 0px;
+    border: 1px dashed #B3B3B3;
+}
+
+.info_first_title_7 div {
+    width: 293px;
+    height: 0px;
+    border: 1px dashed #B3B3B3;
+}
+
+.info_first_title_8 div {
+    width: 285px;
+    height: 0px;
+    border: 1px dashed #B3B3B3;
+}
+
+.purchaseSecond__info_second_title {
+    display: grid;
+    row-gap: 6px;
+}
+
+.purchaseSecond__info_second_title div {
+    display: flex;
+    align-items:last baseline;
+    column-gap: 10px;
+    row-gap: 6px;
+}
+
+.purchaseSecond__info_second_title p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 175.49%;
+    color: #000000;
+}
